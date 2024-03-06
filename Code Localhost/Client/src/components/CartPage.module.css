@@ -1,0 +1,191 @@
+.body {
+  box-sizing: border-box;
+}
+
+.cart {
+  display: grid;
+  margin: 60px;
+  grid-template-columns: 3fr 1fr;
+  column-gap: 30px;
+}
+
+/* Placeholder */
+
+.placeholder {
+  display: flex;
+  align-items: center;
+  background-color: #e0e0e0;
+  height: 180px;
+  padding: 0 60px;
+}
+
+.placeholder div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.placeholder h2 {
+  color: #a0a0a0;
+  font-weight: 300;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+/* CSS cho input */
+.quantity {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.quantity span:first-child {
+  padding: 10px;
+  height: 20px;
+
+  display: flex;
+  align-items: center;
+}
+
+.quantity label {
+  margin-right: 15px;
+}
+
+.input {
+  width: 30px;
+  border: none;
+  height: 20px;
+  text-align: center;
+}
+
+.input:focus {
+  border: none;
+}
+
+.input::-webkit-inner-spin-button,
+.input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.quantity button[type="submit"] {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.title {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+  background-color: #ececec;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.products img {
+  height: auto;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.products form {
+  margin-top: 0;
+  margin: 0 auto;
+}
+
+.products button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.checkout-nav {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ececec;
+}
+
+.checkout-nav button {
+  font-weight: 500;
+  padding: 10px;
+  background: transparent;
+  border: #a0a0a0 1px solid;
+  cursor: pointer;
+}
+
+.checkout-nav i {
+  margin: 0 10px;
+}
+
+.checkout-nav button:last-child {
+  background-color: #000;
+  color: #fff;
+}
+
+/* TOTAL */
+.total {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 50px;
+  background-color: #ececec;
+}
+.total h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.cost span {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cost span:first-child {
+  border-bottom: #a0a0a0 solid 1px;
+}
+
+.cost span:last-child p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.coupon {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.coupon input {
+  padding: 10px;
+}
+
+.coupon button {
+  background-color: #000;
+  color: #fff;
+  height: 40px;
+  cursor: pointer;
+}
+
+.coupon i {
+  margin-right: 5px;
+}

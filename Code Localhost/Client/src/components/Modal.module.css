@@ -1,0 +1,83 @@
+.overlay {
+  background-color: rgba(0, 0, 0, 0.397);
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+.info {
+  padding: 20px;
+  position: absolute;
+  top: 10%;
+  z-index: 1;
+  display: flex;
+  align-items: start;
+  gap: 0;
+  background-color: #fff;
+  width: 60vw;
+  height: 60vh;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.modal {
+  font-size: 13px;
+  color: #a0a0a0;
+}
+
+.info img {
+  width: 70%;
+  height: 100%;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.info div {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 10px;
+}
+
+.info p {
+  font-size: 15px;
+  margin-top: 0;
+
+  overflow-y: auto;
+}
+
+.info p::-webkit-scrollbar {
+  width: 5px;
+}
+
+.info p::-webkit-scrollbar-track {
+  background: transparent; /* Set the scrollbar track background color to transparent */
+}
+
+.info button:first-child {
+  align-self: flex-end;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 15px;
+  font-style: bold;
+}
+
+.info h1 {
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.info h2 {
+  font-weight: 500;
+  font-size: 15px;
+  margin: 0;
+}
+
+.info .cart {
+  padding: 10px 15px;
+  background-color: #2a2a2a;
+  align-self: start;
+}

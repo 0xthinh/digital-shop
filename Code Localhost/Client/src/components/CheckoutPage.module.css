@@ -1,0 +1,106 @@
+.placeholder {
+  display: flex;
+  align-items: center;
+  background-color: #e0e0e0;
+  height: 180px;
+  padding: 0 60px;
+}
+
+.placeholder div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.placeholder h2 {
+  color: #a0a0a0;
+  font-weight: 300;
+}
+
+.placeholder strong {
+  color: #000;
+  font-weight: 300;
+}
+
+/* MAIN */
+.main {
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+  padding: 30px 60px;
+  column-gap: 30px;
+}
+
+/* BILLING DETAILS */
+.billing {
+  display: flex;
+  flex-direction: column;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.details input {
+  padding: 10px;
+}
+
+.details label {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-weight: 400;
+}
+
+.details button {
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  align-self: start;
+  margin-top: 15px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* YOUR ORDER */
+.order {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 50px;
+  background-color: #ececec;
+}
+.order h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.order h3 {
+  font-weight: 500;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: #a0a0a0 solid 1px;
+  gap: 30px;
+}
+
+.item p {
+  color: #a0a0a0;
+  font-size: 15px;
+  font-weight: 400;
+  flex-shrink: 0;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+}
+
+.total p {
+  font-size: 20px;
+  font-weight: 500;
+}

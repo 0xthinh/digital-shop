@@ -1,0 +1,29 @@
+.container {
+  padding: 30px 60px;
+  background-color: black;
+  color: #fff;
+}
+
+.container > div {
+  margin-right: 150px;
+  display: inline-block;
+}
+
+.container h2 {
+  font-size: 20px;
+}
+
+.container ul {
+  list-style: none;
+  padding-left: 0;
+  font-size: 15px;
+}
+
+.container a {
+  text-decoration: none;
+  color: #a0a0a0;
+}
+
+.container li {
+  margin-bottom: 10px;
+}

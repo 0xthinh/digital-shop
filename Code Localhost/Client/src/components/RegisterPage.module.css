@@ -1,0 +1,43 @@
+.body {
+  height: 550px;
+  background: url("../../public/images/banner1.jpg");
+  padding-top: 60px;
+}
+
+.signup {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 350px;
+  margin: auto;
+  text-align: center;
+  justify-content: space-between;
+  border: 1px solid #a0a0a0;
+  border-radius: 10px;
+  padding: 30px 45px;
+  box-shadow: 2px 2px 5px 5px #ececec;
+  background-color: #fff;
+}
+
+.signup form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup input {
+  padding: 15px;
+  border-radius: 0;
+  border: 0.1px solid #a0a0a0;
+}
+
+.signup button {
+  margin-top: 10px;
+  padding: 15px;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.signup p {
+  margin-top: 30px;
+}

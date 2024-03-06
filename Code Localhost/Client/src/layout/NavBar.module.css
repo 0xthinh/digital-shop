@@ -1,0 +1,51 @@
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  font-weight: 400;
+  position: relative;
+}
+
+.container {
+  padding: 0 60px;
+  background-color: rgb(255, 255, 255);
+}
+
+.home {
+  margin-right: 15px;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 25px;
+  align-self: center;
+  text-align: center;
+}
+
+.login {
+  margin-left: 15px;
+}
+
+.navbar i {
+  margin-right: 5px;
+}
+
+.container span {
+  cursor: pointer;
+}
+
+.logout {
+  margin-left: 15px;
+  padding: 5px 10px;
+  background: transparent;
+  border-radius: 5px;
+  border: 1px solid #a0a0a0;
+  cursor: pointer;
+}
+
+.right {
+  position: absolute;
+  right: 0;
+}

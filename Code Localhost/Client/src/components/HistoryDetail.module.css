@@ -1,0 +1,28 @@
+.wrapper {
+  padding: 30px 60px;
+}
+
+.products {
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 10px;
+  text-align: center;
+  align-items: center;
+  /* justify-content: center; */
+  margin: 10px 0px;
+}
+
+.row img {
+  height: auto;
+  width: 60%;
+}
+
+.table thead .row {
+  background-color: rgb(184, 184, 184);
+  height: 50px;
+}
